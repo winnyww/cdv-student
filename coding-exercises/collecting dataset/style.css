@@ -1,0 +1,78 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("map.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pin{
+  position: absolute;
+}
+
+#container1{
+  margin-top: 20%;
+  margin-left: 62%;
+}
+#container2{
+  margin-top: 26%;
+  margin-left: 50%;
+}
+#container3{
+  margin-top: 19%;
+  margin-left: 65%;
+}
+#container4{
+  margin-top: 7%;
+  margin-left: 43%;
+}
+#container5{
+  margin-top: 12%;
+  margin-left: 48%;
+}
+#container6{
+  margin-top: 5%;
+  margin-left: 35%;
+}
+#container7{
+  margin-top: 16%;
+  margin-left: 70%;
+}
+
+.holder{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 85%;
+  margin-top: 13%;
+  text-align:center;
+}
+
+
+
+.bar{
+  width: 15px;
+  margin-right: 5px;
+  transform: rotate(180deg);
+}
+
+.circle{
+  border-radius: 50%;
+  display: inline-block;
+  margin: auto;
+}
+
+.holder p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+}
