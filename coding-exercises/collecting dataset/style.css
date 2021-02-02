@@ -11,12 +11,11 @@ body, html {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .pin{
-  position: absolute;
+  position: fixed;
 }
 
 #container1{
@@ -65,14 +64,35 @@ body, html {
   transform: rotate(180deg);
 }
 
+.bar p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  transform: rotate(180deg);
+}
+
+
 .circle{
   border-radius: 50%;
   display: inline-block;
   margin: auto;
 }
 
+.circle:hover{
+  transform: scale(1.5);
+}
+
 .holder p{
   color: white;
   font-family: sans-serif;
   font-size: 10px;
+}
+
+.pictureHolder{
+  position: absolute;
+  width:250px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 500px;
+  opacity: 0;
 }

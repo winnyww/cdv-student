@@ -184,6 +184,7 @@ for(let i = 0; i < transformedData.length; i++){
 
   let bar = document.createElement("div");
   let circle = document.createElement("div");
+
   // next, we assign the className to the div
   // that will make sure basic bar styling (defined in css/style.css)
   // is applied to it (like height, color, margin)
@@ -196,31 +197,41 @@ for(let i = 0; i < transformedData.length; i++){
   circle.style.height= (average * 5) + "px";
 
   let color = "rgb(" + (100 + i*30) + "," + 100 + "," + 100 + ")";
+  let differentColor = "rgb(" + 100 + "," + 100 + "," + (100 + i*30)  + ")";
   circle.style.background = color;
   bar.style.background = color;
   // console.log(color);
 
   let holder = document.getElementById("placeholder");
   holder.appendChild(circle);
+  circle.addEventListener("mouseover", startAnimation);
+  circle.addEventListener("mouseout", stopAnimation);
 
 
 
+  let circlename = document.createElement("p");
+  circlename.innerHTML = country;
+  holder.appendChild(circlename);
 
-  let barname = document.createElement("p");
-  barname.innerHTML = country;
-  holder.appendChild(barname);
-  // at this point the element we have created using JavaScript only
-  // looks like:
-  // <div class="bar"><p>watermelonWithFetaCheese</p></div>
-  // (that is for the first datapoint (watermelonWithFetaCheese) that we iterate over)
-
-  // that whole element (the div containing the p tag)
-  // we append to the body after all
-  // bring it from "JavaScript world" to "HTML world"
   let counter = "container" + (i + 1);
   let container = document.getElementById(counter);
 
   container.appendChild(bar);
   // console.log(counter);
 
+
+
+
+
+function startAnimation(){
+  bar.style.transform = "scale(1.5)";
+  bar.style.background = "white";
+    document.getElementById("picture").style.opacity = 1;
+  document.getElementById("picture").src= i + ".jpg";
+}
+function stopAnimation(){
+  bar.style.transform = "scale(1)";
+  bar.style.background = color;
+  document.getElementById("picture").style.opacity = 0;
+}
 }
