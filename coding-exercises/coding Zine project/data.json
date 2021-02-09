@@ -1,0 +1,54 @@
+[
+    {
+        "timestamp": "2021-02-05T11:41:52.585Z",
+        "whereAreYou": "Elevator of our apartment ",
+        "whoAreYouWith": "stranger",
+        "doYouUnlockYourPhone": "no",
+        "whatDidYouCheck": "Time on the lock screen",
+        "howMuchDoYouThinkYouSpentInSeconds": 5
+    },
+    {
+        "timestamp": "2021-02-09T07:45:03.995Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 10
+    },
+    {
+        "timestamp": "2021-02-09T07:55:18.012Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my boyfriend, my friend, my classmates and Professor on zoom",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Social media",
+        "whatDidYouEndUpChecking": "Wechat chats, Social media, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 30
+    },
+    {
+        "timestamp": "2021-02-05T11:41:52.585Z",
+        "whereAreYou": "Elevator of our apartment ",
+        "whoAreYouWith": "stranger",
+        "doYouUnlockYourPhone": "no",
+        "whatDidYouCheck": "Time on the lock screen",
+        "howMuchDoYouThinkYouSpentInSeconds": 15
+    },
+    {
+        "timestamp": "2021-02-09T07:45:03.995Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 20
+    },
+    {
+        "timestamp": "2021-02-09T07:55:18.012Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my boyfriend, my friend, my classmates and Professor on zoom",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Social media",
+        "whatDidYouEndUpChecking": "Wechat chats, Social media, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 25
+    }
+]

@@ -1,0 +1,21 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+
+.allArea div{
+  position: absolute;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#vizTime{
+  border: none;
+  background-color: pink;
+}
+
+#vizPhone{
+  border: none;
+  background-color: lightyellow;
+}
