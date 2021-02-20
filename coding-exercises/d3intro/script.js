@@ -7,22 +7,65 @@ let viz = d3.select("#viz-container")
     .attr("id","viz")
     .attr("width", 600)
     .attr("height", 600)
+    .style("background-color", "lavender")
 ;
 
-d3.json("data.json").then(gotData);
+function randomX(){
+ return Math.random() * 600;
+}
 
-function gotData(incomingData){
-
-  viz.selectAll("circle").data(incomingData).enter().append("circle")
-    .attr("cx", justChecking)
-    .attr("cy", 200)
-    .attr("r", 20)
-    .attr("fill", chooseColor)
-  ;
+function randomY(){
+ return Math.random() * 400;
+}
+function randomGroupLocations(){
+  let x = Math.random() * 600;
+  let y = Math.random() * 400;
+  return "translate(" + x + ", " + y + ")";
 
 }
 
-console.log(gotData);
+function gotData(incomingData){
+  console.log(incomingData);
+
+// viz.selectAll(".food").data(incomingData).enter()
+//   .append("rect")
+//   .attr("x", randomX)
+//   .attr("y", randomY)
+//   .attr("height", 20)
+//   .attr("width", 20)
+//   .attr("class", "food")
+// ;
+// viz.selectAll(".foodtext").data(incomingData).enter()
+//   .append("text")
+//   .attr("x", randomX)
+//   .attr("y", randomY)
+//   .text("food")
+//   .attr("fill", "red")
+//   .attr("class", foodtext)
+// ;
+
+let datagroups = viz.selectAll(".datagroup").data(incomingData).enter()
+  .append("g")
+    .attr("class", "datagroup")
+;
+
+datagroups.append("circle")
+  .attr("cx", 0)
+  .attr("cy", 0)
+  .attr("r", 20)
+;
+
+datagroups.append("text")
+  .attr("x", 0)
+  .attr("y", 0)
+  .text("HELLO")
+;
+
+datagroups.attr("transform", randomGroupLocations);
+
+}
+
+d3.json("data.json").then(gotData);
 
 
 // current selection is id = viz-container
