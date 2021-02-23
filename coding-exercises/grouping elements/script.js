@@ -3,7 +3,7 @@
 let viz = d3.select("#viz-container")
   .append("svg")
     .attr("id", "viz")
-    .style("background-color", "lavender")
+    .style("background-color", "white")
 ;
 
 let countX = 0;
@@ -15,7 +15,7 @@ function groupLocations(incomingData){
       countX = 0;
       countY++;
     }
-  let x = 220 + countX * 130;
+  let x = 200 + countX * 130;
   let y = 130 + countY * 130;
   countX++;
   return "translate(" + x + ", " + y + ")";
@@ -26,7 +26,7 @@ function groupLocations2(incomingData){
   countZ = 0;
 }
   let x = 1300;
-  let y = 200 + countZ * 50;
+  let y = 400 + countZ * 50;
   countZ++;
   return "translate(" + x + ", " + y + ")";
 }
@@ -149,11 +149,11 @@ function groupColor2(incomingData){
 
 let names = [
 "STRANGER",
-"MY BOYFRIEND",
-"ZOOM CLASSMATES & PROF",
+"BOYFRIEND",
+"ZOOMer",
 "NOBODY",
-"MY FRIEND",
-"MORE THAN ONE PERSON"
+"FRIEND",
+"MORE "
 ]
 
 function groupText(incomingData){
