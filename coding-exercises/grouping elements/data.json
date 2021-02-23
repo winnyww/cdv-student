@@ -1,0 +1,268 @@
+[
+    {
+        "timestamp": "2021-02-05T11:41:52.585Z",
+        "whereAreYou": "Elevator of our apartment ",
+        "whoAreYouWith": "stranger",
+        "doYouUnlockYourPhone": "no",
+        "whatDidYouCheck": "Time on the lock screen",
+        "howMuchTimeYouSpentInSeconds": 5
+    },
+    {
+        "timestamp": "2021-02-09T07:45:03.995Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 10
+    },
+    {
+        "timestamp": "2021-02-09T07:55:18.012Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my boyfriend, my friend, my classmates and Professor on zoom",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Social media",
+        "whatDidYouEndUpChecking": "Wechat chats, Social media, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 30
+    },
+    {
+        "timestamp": "2021-02-10T02:13:44.182Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Social media, Wechat  moments",
+        "whatDidYouEndUpChecking": "nothing",
+        "howMuchDoYouThinkYouSpentInSeconds": 10
+    },
+    {
+        "timestamp": "2021-02-10T02:14:48.847Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 10,
+        "notes": "Feeling sleepy "
+    },
+    {
+        "timestamp": "2021-02-10T02:29:51.289Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-10T02:46:17.197Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "no",
+        "whatDidYouCheck": "Time on the lock screen, nothing really",
+        "howMuchTimeYouSpentInSeconds": 5,
+        "notes": "Bored "
+    },
+    {
+        "timestamp": "2021-02-10T03:18:26.261Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 30,
+        "notes": "my boyfriend caught me before I waste more time "
+    },
+    {
+        "timestamp": "2021-02-10T04:07:05.910Z",
+        "whereAreYou": "Popeyes",
+        "whoAreYouWith": "my boyfriend, stranger, Too many strangers ",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Wechat texting someone, Wechat  moments",
+        "whatDidYouEndUpChecking": "Wechat chats, Social media, Wechat moments, nothing",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-13T13:30:33.291Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat chats, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 30
+    },
+    {
+        "timestamp": "2021-02-13T14:00:56.920Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "Nobody",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Wechat texting someone",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 30
+    },
+    {
+        "timestamp": "2021-02-13T14:34:45.360Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat chats",
+        "howMuchDoYouThinkYouSpentInSeconds": 30
+    },
+    {
+        "timestamp": "2021-02-14T09:10:46.763Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "Nobody",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-15T12:14:29.553Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my friend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Eleme",
+        "whatDidYouEndUpChecking": "Eleme, Wechat chats, Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-15T12:15:11.061Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my friend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-15T17:40:49.547Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend, my friend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Google calendar ",
+        "whatDidYouEndUpChecking": "Social media, Google calendar ",
+        "howMuchDoYouThinkYouSpentInSeconds": 180
+    },
+    {
+        "timestamp": "2021-02-16T04:33:11.552Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat chats, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-16T15:08:25.987Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Wechat texting someone",
+        "whatDidYouEndUpChecking": "Wechat chats, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 45,
+        "notes": "Wanted to text my parents "
+    },
+    {
+        "timestamp": "2021-02-17T08:43:40.369Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my boyfriend, my friend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 300,
+        "notes": "Caught by my boyfriend "
+    },
+    {
+        "timestamp": "2021-02-17T11:26:35.995Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my friend",
+        "doYouUnlockYourPhone": "no",
+        "whatDidYouCheck": "Time on the lock screen",
+        "howMuchTimeYouSpentInSeconds": 5,
+        "notes": "Thought my phone vibrated "
+    },
+    {
+        "timestamp": "2021-02-17T11:39:43.734Z",
+        "whereAreYou": "AB",
+        "whoAreYouWith": "my friend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Time on the lock screen ",
+        "whatDidYouEndUpChecking": "Eleme, Wechat chats, Wechat moments, Time on the lock screen ",
+        "howMuchDoYouThinkYouSpentInSeconds": 30
+    },
+    {
+        "timestamp": "2021-02-18T10:40:46.539Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat chats",
+        "howMuchDoYouThinkYouSpentInSeconds": 60
+    },
+    {
+        "timestamp": "2021-02-18T11:35:51.390Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Text message ",
+        "whatDidYouEndUpChecking": "Wechat chats, Wechat moments, Text message",
+        "howMuchDoYouThinkYouSpentInSeconds": 240,
+        "notes": "China mobile updated 5G for me "
+    },
+    {
+        "timestamp": "2021-02-18T13:02:06.630Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Wechat texting someone",
+        "whatDidYouEndUpChecking": "Social media",
+        "howMuchDoYouThinkYouSpentInSeconds": 90
+    },
+    {
+        "timestamp": "2021-02-18T14:11:00.317Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "my boyfriend",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Duo app",
+        "whatDidYouEndUpChecking": "Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 20
+    },
+    {
+        "timestamp": "2021-02-19T08:27:56.859Z",
+        "whereAreYou": "Elevator ",
+        "whoAreYouWith": "stranger",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat chats, Social media, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 120
+    },
+    {
+        "timestamp": "2021-02-22T02:11:17.891Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "nothing much",
+        "whatDidYouEndUpChecking": "Wechat chats, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 120,
+        "notes": "breakout room"
+    },
+    {
+        "timestamp": "2021-02-22T02:28:45.497Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "no",
+        "whatDidYouCheck": "Time on the lock screen, wallpaper",
+        "howMuchTimeYouSpentInSeconds": 30,
+        "notes": "wanted to check social media..."
+    },
+    {
+        "timestamp": "2021-02-22T02:53:38.165Z",
+        "whereAreYou": "Home",
+        "whoAreYouWith": "zoom classmates & professor",
+        "doYouUnlockYourPhone": "yes",
+        "whatDidYouWantToCheck": "Eleme",
+        "whatDidYouEndUpChecking": "Eleme, Wechat moments",
+        "howMuchDoYouThinkYouSpentInSeconds": 300
+    }
+]

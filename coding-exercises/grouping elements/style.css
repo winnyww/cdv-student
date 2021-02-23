@@ -1,0 +1,10 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+#viz{
+  position: absolute;
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
