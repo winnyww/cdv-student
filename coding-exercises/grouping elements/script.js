@@ -11,14 +11,14 @@ let countY = 0;
 let countZ = 0;
 
 function groupLocations(incomingData){
-      if (countX > 7){
-      countX = 0;
-      countY++;
-    }
-  let x = 200 + countX * 130;
-  let y = 130 + countY * 130;
-  countX++;
-  return "translate(" + x + ", " + y + ")";
+  //     if (countX > 7){
+  //     countX = 0;
+  //     countY++;
+  //   }
+  // let x = 200 + countX * 130;
+  // let y = 130 + countY * 130;
+  // countX++;
+  return "translate(" + 600 + ", " + 400 + ")";
 }
 
 function groupLocations2(incomingData){
@@ -31,14 +31,20 @@ function groupLocations2(incomingData){
   return "translate(" + x + ", " + y + ")";
 }
 
+  var cou = 0;
+
 function drawShape(incomingData){
   var radialLineGenerator = d3.radialLine();
   var points = [];
 
-    for (let t = 0; t < incomingData; t++){
-      points.push([Math.PI * 2 / incomingData * t, Math.random(30, 40)*incomingData]);}
+
+    for (let t = 0; t <= incomingData; t++){
+      points.push([Math.PI * 2 / incomingData * t, 30 + cou * 15]);
+      points.push([Math.PI * 2 / incomingData * t + Math.PI * 2 / incomingData * 0.5, 50 + cou * 15]);
+    }
 
   var radialLine = radialLineGenerator(points);
+  cou++;
   return radialLine;
 }
 
@@ -191,8 +197,10 @@ datagroup1.append("path")
 
 
 datagroup1.attr("transform", groupLocations);
-datagroup1.attr("fill", groupColor);
-datagroup1.attr("opacity", 0.8);
+datagroup1.attr("stroke", groupColor);
+datagroup1.attr("stroke-width", 1.5);
+datagroup1.attr("fill", "none");
+datagroup1.attr("opacity", 1);
 
 // <---------end drawing 1---------->
 
