@@ -1,4 +1,7 @@
 
+![alt text](http://url/to/pic/cover.jpg)
+![alt text](http://url/to/pic/middle.jpg)
+![alt text](http://url/to/pic/back.jpg)
 
 <What data did you choose to collect?>
 
