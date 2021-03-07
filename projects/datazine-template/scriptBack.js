@@ -2,8 +2,8 @@
 let viz = d3.select("#container")
   .append("svg")
     .attr("id", "viz")
-    //.style("background-color", "#001233")
-    .style("background-image", "url('pic/2.jpg')")
+    .style("background-color", "#001233")
+    //.style("background-image", "url('pic/2.jpg')")
 ;
 
 
@@ -352,7 +352,7 @@ function gotData(incomingData){
     .attr('width', 1200)
     .attr('height', 80)
     // .attr('stroke', 'black')
-    .attr('fill', 'black')
+    .attr('fill', '#001233')
     .style('position', 'absolute')
     //.attr('transform', 'translate(1200 390) rotate(-45)')
   ;
@@ -420,7 +420,7 @@ function gotData(incomingData){
   datagroups.append('text')
     .attr("x", 100)
     .attr("y", 380)
-    .text("Apps I Wanted to Check")
+    .text("Things I Wanted to Check")
     .style("font-size",20)
     .style("fill", "white")
     .style("text-aligh", "center")
@@ -430,7 +430,7 @@ function gotData(incomingData){
   datagroups.append('text')
     .attr("x", 100)
     .attr("y", 425)
-    .text("Apps I Ended Up Checking")
+    .text("Things I Ended Up Checking")
     .style("font-size",20)
     .style("fill", "white")
     .style("text-aligh", "center")
@@ -564,7 +564,7 @@ function gotData(incomingData){
   datagroups.append('text')
     .attr("x", 540)
     .attr("y", 500)
-    .text("what are the apps")
+    .text("what are the things")
     .style("font-size",17)
     .style("fill", "white")
     .style("text-aligh", "center")
