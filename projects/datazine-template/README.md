@@ -1,7 +1,7 @@
 
-![alt text](http://url/to/pic/cover.jpg)
-![alt text](http://url/to/pic/middle.jpg)
-![alt text](http://url/to/pic/back)
+![Image of cover](https://github.com/winnyww/cdv-student/blob/main/projects/datazine-template/pic/cover.jpg)
+![Image of middle](https://github.com/winnyww/cdv-student/blob/main/projects/datazine-template/pic/middle.jpg)
+![Image of back](https://github.com/winnyww/cdv-student/blob/main/projects/datazine-template/pic/back.jpg)
 
 <What data did you choose to collect?>
 
