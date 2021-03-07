@@ -1,0 +1,33 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+
+#bck{
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  filter:hue-rotate(10deg);
+    filter:brightness(50%);
+}
+
+h1{
+  position: absolute;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  margin-left: 200px;
+  margin-top: 200px;
+  width: 700px;
+  font-size: 80px;
+  color: white;
+}
+
+p{
+  position: absolute;
+  font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Satisfy', cursive;
+  margin-left: 470px;
+  margin-top: 370px;
+  width: 600px;
+  font-size: 25px;
+  color: white;
+}
