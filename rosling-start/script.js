@@ -118,15 +118,15 @@ function gotData(incomingData){
       }
     }
 
-    // enteringElemnts.append('circle')
-    //   .attr('r', function(d,i){
-    //     return rScale(d.pop);
-    //   })
-    //   .attr('fill', getColor)
-    // ;
+    enteringElemnts.append('circle')
+      .attr('r', function(d,i){
+        return rScale(d.pop);
+      })
+      .attr('fill', getColor)
+    ;
 
-    let test = "<h1>&#x1F354</h1>";
-    enteringElemnts.append('g').attr('class', 'customShapes').html(test);
+    // let test = "<h1>&#x1F354</h1>";
+    // enteringElemnts.append('g').attr('class', 'customShapes').html(test);
 
 
     enteringElemnts.append('text')
