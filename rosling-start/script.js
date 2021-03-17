@@ -125,9 +125,9 @@ function gotData(incomingData){
     //   .attr('fill', getColor)
     // ;
 
-    let test = "<text>🏃</text>";
-    enteringElemnts.append('g').attr('class', 'customShapes')
-      .html(test)
+    //let test = "<text>🏃</text>";
+    enteringElemnts
+      .html("<text>🏃</text>")
       .attr('font-size', function(d,i){
           return rScale(d.pop)*2;
         })
