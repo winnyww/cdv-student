@@ -139,7 +139,7 @@ function gotData(incomingData){
         return d.Country;
       })
       .attr('x', 0)
-      .attr('y', 17)
+      .attr('y', 5)
       .attr('font-family', 'sans-serif')
       .attr('font-size', '0.5em')
       .attr('fill', 'grey')
