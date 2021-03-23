@@ -112,6 +112,8 @@ function remove(){
     enteringElements = elementsForPage.enter();
     exitingElements = elementsForPage.exit();
 
+    exitingElements.transition().delay(1000).remove();
+
     exitingElements
       .select("rect")
         .attr("fill", color[clickcount])
@@ -126,7 +128,7 @@ function remove(){
         })
         .remove();
      ;
-   exitingElements.transition().delay(1000).remove();
+
 
    allNames = data.map(function(d){return d.key});
    xScale.domain(allNames);
