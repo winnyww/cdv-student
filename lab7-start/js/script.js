@@ -108,9 +108,8 @@ function remove(){
     clickcount++;
   }
 
-    elementsForPage = graphGroup.selectAll(".datapoint").data(data, function(d){
-      return d.name;
-    });
+    elementsForPage = graphGroup.selectAll(".datapoint").data(data,function(d){return d.key});
+    enteringElements = elementsForPage.enter();
     exitingElements = elementsForPage.exit();
 
     exitingElements
