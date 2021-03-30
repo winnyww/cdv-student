@@ -74,8 +74,16 @@ function gotData(incomingData){
         .attr('fill', 'none')
         .attr('stroke', 'black')
         .attr('stroke-width', 5)
-        .attr('stroke', 'blue')
+        .attr('stroke', function(d,i){
+          if (d[0].country === "United States"){
+            return 'blue';
+            console.log(d[0])
+          } else {
+            return 'red';
+          }
+        })
         .attr("class", "line")
+        console.log()
       ;
 
     } else {
@@ -83,7 +91,13 @@ function gotData(incomingData){
         .transition()
         .duration(500)
         .attr('d', lineMaker)
-        .attr('stroke', 'red')
+        .attr('stroke', function(d,i){
+          if (d[0].country === "United States"){
+            return 'blue';
+          } else {
+            return 'red';
+          }
+        })
       ;
       console.log("good")
       console.log(incomingData)
