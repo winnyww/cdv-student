@@ -2,4 +2,4 @@
 
 sketch:
 
-![alt text](sketches/w-1.jpg)
+![alt text](website/sketches/w-1.jpg)
