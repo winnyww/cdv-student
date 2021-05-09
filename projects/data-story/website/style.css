@@ -3,31 +3,33 @@ body{
   height: 100%;
   margin:0;
 }
-
 .header{
   width: 100%;
   position: absolute;
   text-align: center;
   margin-top: 70px;
 }
-
 h{
   color: black;
   font-size: 40px;
   font-family: 'Noto Serif JP', serif;
 }
-
 p{
   color: black;
   font-size: 20px;
   font-family: 'Noto Serif JP', serif;
 }
-
 * {
   box-sizing: border-box;
 }
+.example{
+  width: 100%;
+  position: absolute;
+  left: 35%;
+  bottom: 100px;
 
-form.example input[type=text] {
+}
+form.example input[type=number], form.example select, form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -36,7 +38,6 @@ form.example input[type=text] {
   height: 50px;
   background: white;
 }
-
 form.example button {
   float: left;
   width: 10%;
@@ -49,18 +50,14 @@ form.example button {
   border-left: none;
   cursor: pointer;
 }
-
 form.example button:hover {
   background: #0b7dda;
 }
-
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
-
-
 .stickyDiv {
   height: 100vh;
   width: 100%;
@@ -72,4 +69,59 @@ form.example::after {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+div.textNote {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: auto;
+    padding: 5px;
+    font-family: 'Noto Serif JP', serif, bold;
+    font-size: 14px;
+    background: #FAF2E3;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.year-pos{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    font-family: 'Noto Serif JP', serif, bold;
+    font-size: 25px;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+div.pageNote {
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    height: 120px;
+    word-wrap: break-word;
+    padding: 15px 10px 10px 10px;
+    bottom: auto;
+    font-family: 'Noto Serif JP', serif, bold;
+    font-size: 13px;
+    background: #faf9f9;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+div.input{
+    position: absolute;
+    text-align: center;
+    width: 33.3%;
+    height: auto;
+    padding: 5px;
+    font-family: 'Noto Serif JP', serif, bold;
+    font-size: 18px;
+    background: none;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
 }

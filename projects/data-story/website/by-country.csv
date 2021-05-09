@@ -1,0 +1,669 @@
+country,editors,year,Continent_Code,Two_Letter_Country_Code,Country_Name
+US,26010,2018,AS,AF,"Afghanistan, Islamic Republic of"
+GB,8180,2018,EU,AL,"Albania, Republic of"
+IN,4770,2018,AN,AQ,Antarctica (the territory South of 60 deg S)
+CA,3470,2018,AF,DZ,"Algeria, People's Democratic Republic of"
+AU,2310,2018,OC,AS,American Samoa
+DE,1370,2018,EU,AD,"Andorra, Principality of"
+PH,1140,2018,AF,AO,"Angola, Republic of"
+IT,870,2018,NA,AG,Antigua and Barbuda
+FR,860,2018,EU,AZ,"Azerbaijan, Republic of"
+BR,830,2018,AS,AZ,"Azerbaijan, Republic of"
+MY,740,2018,SA,AR,"Argentina, Argentine Republic"
+NL,690,2018,OC,AU,"Australia, Commonwealth of"
+ID,660,2018,EU,AT,"Austria, Republic of"
+IE,620,2018,NA,BS,"Bahamas, Commonwealth of the"
+ES,560,2018,AS,BH,"Bahrain, Kingdom of"
+SG,500,2018,AS,BD,"Bangladesh, People's Republic of"
+SE,470,2018,EU,AM,"Armenia, Republic of"
+GR,420,2018,AS,AM,"Armenia, Republic of"
+JP,410,2018,NA,BB,Barbados
+IL,390,2018,EU,BE,"Belgium, Kingdom of"
+NZ,370,2018,NA,BM,Bermuda
+PL,370,2018,AS,BT,"Bhutan, Kingdom of"
+CH,340,2018,SA,BO,"Bolivia, Republic of"
+HK,330,2018,EU,BA,Bosnia and Herzegovina
+KR,330,2018,AF,BW,"Botswana, Republic of"
+BE,290,2018,AN,BV,Bouvet Island (Bouvetoya)
+BD,280,2018,SA,BR,"Brazil, Federative Republic of"
+MX,280,2018,NA,BZ,Belize
+NO,280,2018,AS,IO,British Indian Ocean Territory (Chagos Archipelago)
+RO,250,2018,OC,SB,Solomon Islands
+AR,240,2018,NA,VG,British Virgin Islands
+DK,230,2018,AS,BN,Brunei Darussalam
+UA,230,2018,EU,BG,"Bulgaria, Republic of"
+ZA,230,2018,AS,MM,"Myanmar, Union of"
+FI,220,2018,AF,BI,"Burundi, Republic of"
+PT,220,2018,EU,BY,"Belarus, Republic of"
+CL,200,2018,AS,KH,"Cambodia, Kingdom of"
+RS,200,2018,AF,CM,"Cameroon, Republic of"
+NG,190,2018,NA,CA,Canada
+AT,180,2018,AF,CV,"Cape Verde, Republic of"
+CZ,180,2018,NA,KY,Cayman Islands
+HR,170,2018,AF,CF,Central African Republic
+HU,170,2018,AS,LK,"Sri Lanka, Democratic Socialist Republic of"
+TW,170,2018,AF,TD,"Chad, Republic of"
+BG,150,2018,SA,CL,"Chile, Republic of"
+CO,140,2018,AS,CN,"China, People's Republic of"
+LK,130,2018,AS,TW,Taiwan
+--,110,2018,AS,CX,Christmas Island
+NP,110,2018,AS,CC,Cocos (Keeling) Islands
+MA,90,2018,SA,CO,"Colombia, Republic of"
+PE,90,2018,AF,KM,"Comoros, Union of the"
+SK,90,2018,AF,YT,Mayotte
+AL,80,2018,AF,CG,"Congo, Republic of the"
+BA,80,2018,AF,CD,"Congo, Democratic Republic of the"
+GH,80,2018,OC,CK,Cook Islands
+KE,80,2018,NA,CR,"Costa Rica, Republic of"
+KW,80,2018,EU,HR,"Croatia, Republic of"
+MK,80,2018,NA,CU,"Cuba, Republic of"
+LB,70,2018,EU,CY,"Cyprus, Republic of"
+LT,70,2018,AS,CY,"Cyprus, Republic of"
+DO,60,2018,EU,CZ,Czech Republic
+GE,60,2018,AF,BJ,"Benin, Republic of"
+LU,60,2018,EU,DK,"Denmark, Kingdom of"
+PR,60,2018,NA,DM,"Dominica, Commonwealth of"
+SI,60,2018,NA,DO,Dominican Republic
+UY,60,2018,SA,EC,"Ecuador, Republic of"
+CY,50,2018,NA,SV,"El Salvador, Republic of"
+EE,50,2018,AF,GQ,"Equatorial Guinea, Republic of"
+IS,50,2018,AF,ET,"Ethiopia, Federal Democratic Republic of"
+LV,50,2018,AF,ER,"Eritrea, State of"
+MT,50,2018,EU,EE,"Estonia, Republic of"
+SV,50,2018,EU,FO,Faroe Islands
+AM,40,2018,SA,FK,Falkland Islands (Malvinas)
+DZ,40,2018,AN,GS,South Georgia and the South Sandwich Islands
+EC,40,2018,OC,FJ,"Fiji, Republic of the Fiji Islands"
+KH,40,2018,EU,FI,"Finland, Republic of"
+QA,40,2018,EU,AX,Åland Islands
+BN,30,2018,EU,FR,"France, French Republic"
+CR,30,2018,SA,GF,French Guiana
+GT,30,2018,OC,PF,French Polynesia
+IQ,30,2018,AN,TF,French Southern Territories
+JE,30,2018,AF,DJ,"Djibouti, Republic of"
+JO,30,2018,AF,GA,"Gabon, Gabonese Republic"
+ME,30,2018,EU,GE,Georgia
+MU,30,2018,AS,GE,Georgia
+PA,30,2018,AF,GM,"Gambia, Republic of the"
+TN,30,2018,AS,PS,"Palestinian Territory, Occupied"
+TZ,30,2018,EU,DE,"Germany, Federal Republic of"
+UG,30,2018,AF,GH,"Ghana, Republic of"
+AF,20,2018,EU,GI,Gibraltar
+BS,20,2018,OC,KI,"Kiribati, Republic of"
+GG,20,2018,EU,GR,"Greece, Hellenic Republic"
+HN,20,2018,NA,GL,Greenland
+IM,20,2018,NA,GD,Grenada
+JM,20,2018,NA,GP,Guadeloupe
+MD,20,2018,OC,GU,Guam
+MH,20,2018,NA,GT,"Guatemala, Republic of"
+MN,20,2018,AF,GN,"Guinea, Republic of"
+MV,20,2018,SA,GY,"Guyana, Co-operative Republic of"
+NI,20,2018,NA,HT,"Haiti, Republic of"
+OM,20,2018,AN,HM,Heard Island and McDonald Islands
+RW,20,2018,EU,VA,Holy See (Vatican City State)
+TT,20,2018,NA,HN,"Honduras, Republic of"
+AG,10,2018,AS,HK,"Hong Kong, Special Administrative Region of China"
+AO,10,2018,EU,HU,"Hungary, Republic of"
+AW,10,2018,EU,IS,"Iceland, Republic of"
+AX,10,2018,AS,IN,"India, Republic of"
+BB,10,2018,AS,ID,"Indonesia, Republic of"
+BJ,10,2018,AS,IR,"Iran, Islamic Republic of"
+BM,10,2018,AS,IQ,"Iraq, Republic of"
+BO,10,2018,EU,IE,Ireland
+BQ,10,2018,AS,IL,"Israel, State of"
+BT,10,2018,EU,IT,"Italy, Italian Republic"
+BW,10,2018,AF,CI,"Cote d'Ivoire, Republic of"
+BZ,10,2018,NA,JM,Jamaica
+CD,10,2018,AS,JP,Japan
+CI,10,2018,EU,KZ,"Kazakhstan, Republic of"
+CK,10,2018,AS,KZ,"Kazakhstan, Republic of"
+CM,10,2018,AS,JO,"Jordan, Hashemite Kingdom of"
+CV,10,2018,AF,KE,"Kenya, Republic of"
+FJ,10,2018,AS,KP,"Korea, Democratic People's Republic of"
+FO,10,2018,AS,KR,"Korea, Republic of"
+GD,10,2018,AS,KW,"Kuwait, State of"
+GI,10,2018,AS,KG,Kyrgyz Republic
+GL,10,2018,AS,LA,Lao People's Democratic Republic
+GN,10,2018,AS,LB,"Lebanon, Lebanese Republic"
+GP,10,2018,AF,LS,"Lesotho, Kingdom of"
+GU,10,2018,EU,LV,"Latvia, Republic of"
+GY,10,2018,AF,LR,"Liberia, Republic of"
+KG,10,2018,AF,LY,Libyan Arab Jamahiriya
+KN,10,2018,EU,LI,"Liechtenstein, Principality of"
+KY,10,2018,EU,LT,"Lithuania, Republic of"
+LC,10,2018,EU,LU,"Luxembourg, Grand Duchy of"
+LI,10,2018,AS,MO,"Macao, Special Administrative Region of China"
+LR,10,2018,AF,MG,"Madagascar, Republic of"
+LS,10,2018,AF,MW,"Malawi, Republic of"
+MC,10,2018,AS,MY,Malaysia
+MG,10,2018,AS,MV,"Maldives, Republic of"
+MO,10,2018,AF,ML,"Mali, Republic of"
+MP,10,2018,EU,MT,"Malta, Republic of"
+MQ,10,2018,NA,MQ,Martinique
+MW,10,2018,AF,MR,"Mauritania, Islamic Republic of"
+MZ,10,2018,AF,MU,"Mauritius, Republic of"
+NA,10,2018,NA,MX,"Mexico, United Mexican States"
+NF,10,2018,EU,MC,"Monaco, Principality of"
+PG,10,2018,AS,MN,Mongolia
+PS,10,2018,EU,MD,"Moldova, Republic of"
+PY,10,2018,EU,ME,"Montenegro, Republic of"
+RE,10,2018,NA,MS,Montserrat
+SC,10,2018,AF,MA,"Morocco, Kingdom of"
+SL,10,2018,AF,MZ,"Mozambique, Republic of"
+SM,10,2018,AS,OM,"Oman, Sultanate of"
+SN,10,2018,AF,NA,"Namibia, Republic of"
+SR,10,2018,OC,NR,"Nauru, Republic of"
+SS,10,2018,AS,NP,"Nepal, State of"
+SX,10,2018,EU,NL,"Netherlands, Kingdom of the"
+TC,10,2018,NA,AN,Netherlands Antilles
+TD,10,2018,NA,CW,Curaçao
+TG,10,2018,NA,AW,Aruba
+TJ,10,2018,NA,SX,Sint Maarten (Netherlands)
+TL,10,2018,NA,BQ,"Bonaire, Sint Eustatius and Saba"
+VA,10,2018,OC,NC,New Caledonia
+VG,10,2018,OC,VU,"Vanuatu, Republic of"
+VI,10,2018,OC,NZ,New Zealand
+VU,10,2018,NA,NI,"Nicaragua, Republic of"
+XK,10,2018,AF,NE,"Niger, Republic of"
+YT,10,2018,AF,NG,"Nigeria, Federal Republic of"
+ZM,10,2018,OC,NU,Niue
+ZW,10,2018,OC,NF,Norfolk Island
+US,23990,2019,EU,NO,"Norway, Kingdom of"
+GB,7800,2019,OC,MP,"Northern Mariana Islands, Commonwealth of the"
+IN,5030,2019,OC,UM,United States Minor Outlying Islands
+CA,3050,2019,NA,UM,United States Minor Outlying Islands
+AU,2220,2019,OC,FM,"Micronesia, Federated States of"
+DE,1410,2019,OC,MH,"Marshall Islands, Republic of the"
+PH,1080,2019,OC,PW,"Palau, Republic of"
+IT,800,2019,AS,PK,"Pakistan, Islamic Republic of"
+BR,780,2019,NA,PA,"Panama, Republic of"
+FR,780,2019,OC,PG,"Papua New Guinea, Independent State of"
+ID,680,2019,SA,PY,"Paraguay, Republic of"
+NL,660,2019,SA,PE,"Peru, Republic of"
+IE,640,2019,AS,PH,"Philippines, Republic of the"
+MY,620,2019,OC,PN,Pitcairn Islands
+ES,560,2019,EU,PL,"Poland, Republic of"
+PL,450,2019,EU,PT,"Portugal, Portuguese Republic"
+SG,440,2019,AF,GW,"Guinea-Bissau, Republic of"
+SE,430,2019,AS,TL,"Timor-Leste, Democratic Republic of"
+GR,410,2019,NA,PR,"Puerto Rico, Commonwealth of"
+NZ,390,2019,AS,QA,"Qatar, State of"
+HK,370,2019,AF,RE,Reunion
+IL,350,2019,EU,RO,Romania
+JP,350,2019,EU,RU,Russian Federation
+BD,310,2019,AS,RU,Russian Federation
+ZA,310,2019,AF,RW,"Rwanda, Republic of"
+KR,290,2019,NA,BL,Saint Barthelemy
+MX,290,2019,AF,SH,Saint Helena
+BE,270,2019,NA,KN,"Saint Kitts and Nevis, Federation of"
+CH,270,2019,NA,AI,Anguilla
+NO,250,2019,NA,LC,Saint Lucia
+RO,240,2019,NA,MF,Saint Martin
+FI,230,2019,NA,PM,Saint Pierre and Miquelon
+AR,220,2019,NA,VC,Saint Vincent and the Grenadines
+DK,220,2019,EU,SM,"San Marino, Republic of"
+RS,200,2019,AF,ST,"Sao Tome and Principe, Democratic Republic of"
+PT,190,2019,AS,SA,"Saudi Arabia, Kingdom of"
+TW,190,2019,AF,SN,"Senegal, Republic of"
+AT,180,2019,EU,RS,"Serbia, Republic of"
+CZ,180,2019,AF,SC,"Seychelles, Republic of"
+HR,180,2019,AF,SL,"Sierra Leone, Republic of"
+NG,180,2019,AS,SG,"Singapore, Republic of"
+UA,180,2019,EU,SK,Slovakia (Slovak Republic)
+CL,150,2019,AS,VN,"Vietnam, Socialist Republic of"
+HU,150,2019,EU,SI,"Slovenia, Republic of"
+BG,130,2019,AF,SO,"Somalia, Somali Republic"
+CO,120,2019,AF,ZA,"South Africa, Republic of"
+NP,120,2019,AF,ZW,"Zimbabwe, Republic of"
+PE,120,2019,EU,ES,"Spain, Kingdom of"
+LK,110,2019,AF,SS,South Sudan
+--,90,2019,AF,EH,Western Sahara
+AL,90,2019,AF,SD,"Sudan, Republic of"
+GH,80,2019,SA,SR,"Suriname, Republic of"
+SK,80,2019,EU,SJ,Svalbard & Jan Mayen Islands
+BA,70,2019,AF,SZ,"Swaziland, Kingdom of"
+KW,70,2019,EU,SE,"Sweden, Kingdom of"
+LT,70,2019,EU,CH,"Switzerland, Swiss Confederation"
+MA,70,2019,AS,SY,Syrian Arab Republic
+PR,70,2019,AS,TJ,"Tajikistan, Republic of"
+DO,60,2019,AS,TH,"Thailand, Kingdom of"
+DZ,60,2019,AF,TG,"Togo, Togolese Republic"
+EE,60,2019,OC,TK,Tokelau
+KE,60,2019,OC,TO,"Tonga, Kingdom of"
+LB,60,2019,NA,TT,"Trinidad and Tobago, Republic of"
+MK,60,2019,AS,AE,United Arab Emirates
+SI,60,2019,AF,TN,"Tunisia, Tunisian Republic"
+EC,50,2019,EU,TR,"Turkey, Republic of"
+GE,50,2019,AS,TR,"Turkey, Republic of"
+LU,50,2019,AS,TM,Turkmenistan
+LV,50,2019,NA,TC,Turks and Caicos Islands
+MT,50,2019,OC,TV,Tuvalu
+CY,40,2019,AF,UG,"Uganda, Republic of"
+IQ,40,2019,EU,UA,Ukraine
+KH,40,2019,EU,MK,"Macedonia, The Former Yugoslav Republic of"
+QA,40,2019,AF,EG,"Egypt, Arab Republic of"
+TN,40,2019,EU,GB,United Kingdom of Great Britain & Northern Ireland
+UY,40,2019,EU,GG,"Guernsey, Bailiwick of"
+AM,30,2019,EU,JE,"Jersey, Bailiwick of"
+CR,30,2019,EU,IM,Isle of Man
+IS,30,2019,AF,TZ,"Tanzania, United Republic of"
+JM,30,2019,NA,US,United States of America
+JO,30,2019,NA,VI,United States Virgin Islands
+OM,30,2019,AF,BF,Burkina Faso
+SV,30,2019,SA,UY,"Uruguay, Eastern Republic of"
+UG,30,2019,AS,UZ,"Uzbekistan, Republic of"
+BN,20,2019,SA,VE,"Venezuela, Bolivarian Republic of"
+BW,20,2019,OC,WF,Wallis and Futuna
+GG,20,2019,OC,WS,"Samoa, Independent State of"
+GT,20,2019,AS,YE,Yemen
+HN,20,2019,AF,ZM,"Zambia, Republic of"
+IM,20,2019,OC,XX,Disputed Territory
+MD,20,2019,AS,XE,Iraq-Saudi Arabia Neutral Zone
+ME,20,2019,AS,XD,United Nations Neutral Zone
+MN,20,2019,AS,XS,Spratly Islands
+MU,20,2019,,,
+PA,20,2019,,,
+PY,20,2019,,,
+TT,20,2019,,,
+TZ,20,2019,,,
+ZM,20,2019,,,
+AD,10,2019,,,
+AF,10,2019,,,
+AG,10,2019,,,
+AI,10,2019,,,
+AQ,10,2019,,,
+AW,10,2019,,,
+AX,10,2019,,,
+BB,10,2019,,,
+BF,10,2019,,,
+BI,10,2019,,,
+BJ,10,2019,,,
+BM,10,2019,,,
+BO,10,2019,,,
+BQ,10,2019,,,
+BS,10,2019,,,
+BT,10,2019,,,
+BZ,10,2019,,,
+CC,10,2019,,,
+CI,10,2019,,,
+CM,10,2019,,,
+CW,10,2019,,,
+DM,10,2019,,,
+FJ,10,2019,,,
+FK,10,2019,,,
+FM,10,2019,,,
+FO,10,2019,,,
+GD,10,2019,,,
+GF,10,2019,,,
+GI,10,2019,,,
+GM,10,2019,,,
+GN,10,2019,,,
+GP,10,2019,,,
+GU,10,2019,,,
+GY,10,2019,,,
+HT,10,2019,,,
+JE,10,2019,,,
+KG,10,2019,,,
+KI,10,2019,,,
+KY,10,2019,,,
+LC,10,2019,,,
+LR,10,2019,,,
+LS,10,2019,,,
+MH,10,2019,,,
+MO,10,2019,,,
+MP,10,2019,,,
+MR,10,2019,,,
+MV,10,2019,,,
+MW,10,2019,,,
+MZ,10,2019,,,
+NA,10,2019,,,
+NE,10,2019,,,
+NI,10,2019,,,
+PG,10,2019,,,
+PS,10,2019,,,
+RE,10,2019,,,
+RW,10,2019,,,
+SB,10,2019,,,
+SL,10,2019,,,
+SM,10,2019,,,
+SN,10,2019,,,
+SS,10,2019,,,
+ST,10,2019,,,
+SX,10,2019,,,
+SZ,10,2019,,,
+TG,10,2019,,,
+TJ,10,2019,,,
+TV,10,2019,,,
+VA,10,2019,,,
+VG,10,2019,,,
+XK,10,2019,,,
+ZW,10,2019,,,
+US,23350,2020,,,
+GB,7820,2020,,,
+IN,5550,2020,,,
+CA,3140,2020,,,
+AU,2410,2020,,,
+DE,1370,2020,,,
+PH,1080,2020,,,
+IT,870,2020,,,
+BR,850,2020,,,
+FR,810,2020,,,
+ID,750,2020,,,
+NL,670,2020,,,
+IE,630,2020,,,
+ES,560,2020,,,
+MY,480,2020,,,
+GR,460,2020,,,
+PL,450,2020,,,
+SE,450,2020,,,
+SG,450,2020,,,
+JP,410,2020,,,
+NZ,400,2020,,,
+HK,370,2020,,,
+IL,370,2020,,,
+BD,340,2020,,,
+KR,340,2020,,,
+ZA,330,2020,,,
+MX,320,2020,,,
+CH,270,2020,,,
+NG,270,2020,,,
+BE,260,2020,,,
+NO,260,2020,,,
+FI,240,2020,,,
+RO,240,2020,,,
+AR,230,2020,,,
+DK,230,2020,,,
+RS,200,2020,,,
+TW,190,2020,,,
+UA,190,2020,,,
+AT,170,2020,,,
+PT,170,2020,,,
+CZ,160,2020,,,
+HR,160,2020,,,
+--,150,2020,,,
+BG,150,2020,,,
+CL,150,2020,,,
+HU,140,2020,,,
+LK,140,2020,,,
+NP,140,2020,,,
+CO,120,2020,,,
+GH,100,2020,,,
+KE,100,2020,,,
+PE,90,2020,,,
+SK,90,2020,,,
+AL,80,2020,,,
+BA,80,2020,,,
+EE,80,2020,,,
+LT,70,2020,,,
+PR,70,2020,,,
+SI,70,2020,,,
+DO,60,2020,,,
+KW,60,2020,,,
+LB,60,2020,,,
+GE,50,2020,,,
+IQ,50,2020,,,
+LV,50,2020,,,
+MA,50,2020,,,
+MK,50,2020,,,
+MT,50,2020,,,
+UG,50,2020,,,
+CR,40,2020,,,
+CY,40,2020,,,
+EC,40,2020,,,
+IS,40,2020,,,
+KH,40,2020,,,
+LU,40,2020,,,
+NI,40,2020,,,
+QA,40,2020,,,
+AM,30,2020,,,
+DZ,30,2020,,,
+IM,30,2020,,,
+JO,30,2020,,,
+ME,30,2020,,,
+OM,30,2020,,,
+PA,30,2020,,,
+TN,30,2020,,,
+UY,30,2020,,,
+AQ,20,2020,,,
+FJ,20,2020,,,
+GU,20,2020,,,
+HN,20,2020,,,
+JE,20,2020,,,
+JM,20,2020,,,
+MD,20,2020,,,
+MH,20,2020,,,
+MN,20,2020,,,
+MU,20,2020,,,
+MV,20,2020,,,
+PY,20,2020,,,
+SV,20,2020,,,
+TT,20,2020,,,
+TZ,20,2020,,,
+AD,10,2020,,,
+AF,10,2020,,,
+AG,10,2020,,,
+AO,10,2020,,,
+AW,10,2020,,,
+AX,10,2020,,,
+BB,10,2020,,,
+BF,10,2020,,,
+BI,10,2020,,,
+BJ,10,2020,,,
+BN,10,2020,,,
+BO,10,2020,,,
+BQ,10,2020,,,
+BS,10,2020,,,
+BT,10,2020,,,
+BW,10,2020,,,
+BZ,10,2020,,,
+CD,10,2020,,,
+CI,10,2020,,,
+CM,10,2020,,,
+CV,10,2020,,,
+CW,10,2020,,,
+FO,10,2020,,,
+GD,10,2020,,,
+GG,10,2020,,,
+GI,10,2020,,,
+GL,10,2020,,,
+GM,10,2020,,,
+GP,10,2020,,,
+GT,10,2020,,,
+GY,10,2020,,,
+HT,10,2020,,,
+KG,10,2020,,,
+KY,10,2020,,,
+LC,10,2020,,,
+LR,10,2020,,,
+LS,10,2020,,,
+MC,10,2020,,,
+MG,10,2020,,,
+MO,10,2020,,,
+MP,10,2020,,,
+MQ,10,2020,,,
+MR,10,2020,,,
+MW,10,2020,,,
+MZ,10,2020,,,
+NA,10,2020,,,
+NC,10,2020,,,
+PG,10,2020,,,
+PS,10,2020,,,
+PW,10,2020,,,
+RW,10,2020,,,
+SB,10,2020,,,
+SC,10,2020,,,
+SL,10,2020,,,
+SM,10,2020,,,
+SN,10,2020,,,
+SR,10,2020,,,
+SS,10,2020,,,
+SX,10,2020,,,
+TC,10,2020,,,
+TG,10,2020,,,
+TO,10,2020,,,
+VA,10,2020,,,
+VC,10,2020,,,
+VI,10,2020,,,
+VU,10,2020,,,
+WS,10,2020,,,
+ZM,10,2020,,,
+ZW,10,2020,,,
+US,24000,2021,,,
+GB,8010,2021,,,
+IN,5790,2021,,,
+CA,3490,2021,,,
+AU,2200,2021,,,
+DE,1500,2021,,,
+PH,1330,2021,,,
+IT,1000,2021,,,
+FR,850,2021,,,
+BR,840,2021,,,
+ID,710,2021,,,
+NL,650,2021,,,
+IE,630,2021,,,
+ES,620,2021,,,
+PL,490,2021,,,
+MY,480,2021,,,
+HK,460,2021,,,
+SE,460,2021,,,
+BD,450,2021,,,
+JP,440,2021,,,
+NZ,420,2021,,,
+GR,390,2021,,,
+IL,380,2021,,,
+ZA,370,2021,,,
+NG,340,2021,,,
+MX,330,2021,,,
+KR,280,2021,,,
+RO,280,2021,,,
+BE,270,2021,,,
+PT,270,2021,,,
+CH,250,2021,,,
+NO,250,2021,,,
+RS,240,2021,,,
+FI,230,2021,,,
+UA,220,2021,,,
+DK,210,2021,,,
+HR,210,2021,,,
+AR,200,2021,,,
+TW,200,2021,,,
+BG,180,2021,,,
+CZ,180,2021,,,
+HU,180,2021,,,
+AT,170,2021,,,
+CL,170,2021,,,
+LK,160,2021,,,
+CO,140,2021,,,
+--,120,2021,,,
+PE,110,2021,,,
+GH,100,2021,,,
+KE,100,2021,,,
+LT,100,2021,,,
+NP,90,2021,,,
+PR,90,2021,,,
+SI,90,2021,,,
+SK,90,2021,,,
+AL,80,2021,,,
+LB,80,2021,,,
+BA,70,2021,,,
+DO,70,2021,,,
+GE,70,2021,,,
+TN,70,2021,,,
+EE,60,2021,,,
+KW,60,2021,,,
+MA,60,2021,,,
+MK,60,2021,,,
+MT,60,2021,,,
+CY,50,2021,,,
+KH,50,2021,,,
+LV,50,2021,,,
+QA,50,2021,,,
+UG,50,2021,,,
+UY,50,2021,,,
+AM,40,2021,,,
+CR,40,2021,,,
+EC,40,2021,,,
+JO,40,2021,,,
+LU,40,2021,,,
+DZ,30,2021,,,
+GT,30,2021,,,
+HN,30,2021,,,
+IS,30,2021,,,
+MD,30,2021,,,
+MU,30,2021,,,
+OM,30,2021,,,
+TZ,30,2021,,,
+ZW,30,2021,,,
+AF,20,2021,,,
+BB,20,2021,,,
+BN,20,2021,,,
+BO,20,2021,,,
+BS,20,2021,,,
+BW,20,2021,,,
+IM,20,2021,,,
+JE,20,2021,,,
+JM,20,2021,,,
+ME,20,2021,,,
+MN,20,2021,,,
+MV,20,2021,,,
+NA,20,2021,,,
+NI,20,2021,,,
+PA,20,2021,,,
+PS,20,2021,,,
+PY,20,2021,,,
+TT,20,2021,,,
+AD,10,2021,,,
+AG,10,2021,,,
+AI,10,2021,,,
+AO,10,2021,,,
+AW,10,2021,,,
+AX,10,2021,,,
+BJ,10,2021,,,
+BM,10,2021,,,
+BT,10,2021,,,
+BZ,10,2021,,,
+CD,10,2021,,,
+CF,10,2021,,,
+CG,10,2021,,,
+CI,10,2021,,,
+CM,10,2021,,,
+CW,10,2021,,,
+DM,10,2021,,,
+FJ,10,2021,,,
+FO,10,2021,,,
+GA,10,2021,,,
+GD,10,2021,,,
+GF,10,2021,,,
+GG,10,2021,,,
+GI,10,2021,,,
+GL,10,2021,,,
+GP,10,2021,,,
+GU,10,2021,,,
+GY,10,2021,,,
+HT,10,2021,,,
+KG,10,2021,,,
+KY,10,2021,,,
+LC,10,2021,,,
+MC,10,2021,,,
+MF,10,2021,,,
+MG,10,2021,,,
+MH,10,2021,,,
+ML,10,2021,,,
+MO,10,2021,,,
+MP,10,2021,,,
+MW,10,2021,,,
+MZ,10,2021,,,
+PF,10,2021,,,
+PG,10,2021,,,
+RE,10,2021,,,
+SM,10,2021,,,
+SN,10,2021,,,
+SR,10,2021,,,
+SS,10,2021,,,
+SV,10,2021,,,
+VC,10,2021,,,
+VG,10,2021,,,
+VI,10,2021,,,
+WS,10,2021,,,
+XK,10,2021,,,
+ZM,10,2021,,,

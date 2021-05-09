@@ -14,11 +14,12 @@
     <div class="header">
       <h>WIKIPEDIA</h>
       <p>the free Encyclopedia</p>
+      <!-- <p id="placeholder"></p> -->
    </div>
 
       <div id="container"></div>
-      <form class="example" action="index1.html" style="margin:auto;max-width:600px">
-        <input type="text" placeholder="Can you guess how many Wikipedia edits are there in a day?" name="search2">
+      <form class="example" onclick="createItem()" action="index1.html" style="margin:auto;max-width:600px">
+        <input type="number"  id="myForm" placeholder="Can you guess how many Wikipedia edits are there in a month?">
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
 
@@ -27,4 +28,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </body>
+
+  <script>
+function inputFunction(){
+    let value = [];
+    var x = document.getElementById("inputBox").value;
+    console.log(x);
+  }
+  </script>
 </html>
