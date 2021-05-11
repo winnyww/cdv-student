@@ -4,6 +4,55 @@ function createItem()  {
   localStorage.editInput = getInfo.value;
 }
 
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.intro-1-1');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-1-1 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 10 * (i+1)
+  });
+
+var textWrapper = document.querySelector('.intro-1-2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-1-2 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 2000+10 * (i+1)
+  });
+
+var textWrapper = document.querySelector('.intro-1-3');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-1-3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 4000+10 * (i+1)
+  });
+
+var textWrapper = document.querySelector('.intro-1-4');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-1-4 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 6000+10 * (i+1)
+  });
+
 //page-1
 d3.json("countries.geojson").then(function(geoData){
 
@@ -15,6 +64,7 @@ d3.json("countries.geojson").then(function(geoData){
   var tNew, dt, steps, pos, tOld, oldPos;
   tOld = 0;
   oldPos = 0;
+  let color = "#c0fdff";
 
   let viz = d3.select("#container").append("svg")
       .style("width", w)
@@ -34,7 +84,7 @@ d3.json("countries.geojson").then(function(geoData){
         .attr("cx", w/2)
         .attr("cy", h/2)
         .attr("r", projection.scale())
-        .style("fill", "#E8E8E8 "  )
+        .style("fill", "#E8E8E8"  )
 
       //location to make little marks - later
       // let lat = 142.10;
@@ -45,9 +95,19 @@ d3.json("countries.geojson").then(function(geoData){
         .append("path")
           .attr("class", "province")
           .attr("d", pathMaker)
-          .attr("fill", "grey")
+          //.attr("fill", getColor)
+          .attr("fill", 'grey')
           .attr("stroke", "white")
       ;
+
+      //light up somewhere every half a second
+      function getColor(d,i){
+          if (i == (Math.random()*180).toFixed(0)){
+            return color;
+          } else {
+            return 'grey'
+          }
+      }
 
   // start timer
   d3.timer(myTimer);
@@ -65,7 +125,17 @@ d3.json("countries.geojson").then(function(geoData){
          pos = pos+360
        }
        projection.rotate([pos, 0]);
-       viz.selectAll("path").attr("d", pathMaker)
+       viz.selectAll("path")
+        .attr("d", pathMaker)
+
+       if ( (now%500).toFixed(0) < 100){
+         viz.selectAll("path")
+          .transition()
+          .duration(300)
+          .attr("fill", getColor)
+        //console.log((now/500).toFixed(0))
+       }
+      //setInterval(viz.selectAll("path").attr("fill", getColor), 500)
           tOld = tNew;
           oldPos = pos;
       } else {

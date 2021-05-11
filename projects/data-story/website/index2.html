@@ -7,12 +7,13 @@
 
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://unpkg.com/enter-view"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
   </head>
   <body>
 
     <div class="header">
-      <h>Page 3</h>
+      <h>Most of the information <br>comes from...</h>
       <p>active editors by country</p>
    </div>
 
@@ -24,12 +25,13 @@
         <p class='year-pos' id='2021' style="top:57%; left:71%">2021</p>
       </div>
       <div id="container-3"></div>
-      <div class="formPosition">
+
         <form class="example" action="index3.html" style="margin:auto;max-width:600px">
-          <input type="text" placeholder="Wanna know a page that is most editted?" name="search2">
+          <select id="myForm">
+             <option>Can you guess which page has been edited the most?</option>
+          </select>
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-      </div>
 
     <script type="text/javascript" src="script3.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">

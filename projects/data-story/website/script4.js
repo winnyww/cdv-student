@@ -16,7 +16,8 @@ d3.csv('most-editted-pages.csv').then(function(incomingData){
       "#e0aaff",
       "#c77dff",
       "#9d4edd",
-      "#f2e9e4"
+      "#7251b5",
+      "#fffcf2"
     ]
 
   //grid
@@ -71,6 +72,9 @@ d3.csv('most-editted-pages.csv').then(function(incomingData){
         } else if (info[title][0]+info[title][1]+info[title][2]+info[title][3]
             == "Talk"){
           functionPage.push("Talk")
+        } else if (info[title][0]+info[title][1]+info[title][2]+info[title][3]+info[title][4]+info[title][5]+info[title][6]+info[title][7]
+            == "Template"){
+          functionPage.push("Talk")
         } else {
           functionPage.push("Others")
         }
@@ -124,8 +128,10 @@ d3.csv('most-editted-pages.csv').then(function(incomingData){
         return colors[1]
       } else if (functionPage[i] == "Talk"){
         return colors[2]
-      } else if (functionPage[i] == "Others"){
+      } else if (functionPage[i] == "Template"){
         return colors[3]
+      } else if (functionPage[i] == "Others"){
+        return colors[4]
       }
     }
 

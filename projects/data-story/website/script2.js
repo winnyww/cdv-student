@@ -4,6 +4,31 @@ function createItem()  {
   localStorage.countryInput = getInfo.value;
 }
 
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.intro-2-1');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-2-1 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 10 * (i+1)
+  });
+
+var textWrapper = document.querySelector('.intro-2-2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-2-2 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 4000+10 * (i+1)
+  });
+
 //page-2
 d3.csv('edits.csv').then(function(incomingData){
 
@@ -12,6 +37,8 @@ d3.csv('edits.csv').then(function(incomingData){
     let padding = 100;
     let inputNumber = localStorage.getItem("editInput");
     let countryInUse = [];
+    let countryCodes = [];
+    let countryNames = [];
 
   //stripe shapes
     let viz2 = d3.select("#container-2").append("svg")
@@ -34,18 +61,29 @@ d3.csv('edits.csv').then(function(incomingData){
 
   //create option
   let items = Object.keys(incomingData[incomingData.length-1]);
-  let countryCode = items[5];
+  let countryCode = items[7];
+  let countries = items[6];
+  let countryInUseCode = items[5];
   let form = document.getElementById('myForm');
+
 
     for(let j = 0; j < incomingData.length; j++){
       let info = incomingData[j];
-      countryInUse.push(info[countryCode]);
-      var opt = document.createElement("option");
-      var t = document.createTextNode(countryInUse[j]);
-      opt.appendChild(t);
-      form.appendChild(opt);
-    }
 
+        countryCodes.push(info[countryCode]);
+        countryNames.push(info[countries]);
+        countryInUse.push(info[countryInUseCode]);
+      }
+
+    for(let i = 0; i < countryInUse.length; i++){
+      if (countryCodes.includes(countryInUse[i]) == true){
+          //console.log(countryInUse[i])
+        var opt = document.createElement("option");
+        var t = document.createTextNode(countryNames[i]);
+        opt.appendChild(t);
+        form.appendChild(opt);
+      }
+    }
 
 
 
