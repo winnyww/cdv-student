@@ -3,6 +3,18 @@ function createItem()  {
   localStorage.commentInput = getInfo.value;
 }
 
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.intro-4');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets: '.intro-4 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 500,
+    delay: (el, i) => 10 * (i+1)
+  });
 
 //page-4
 d3.csv('most-editted-pages.csv').then(function(incomingData){

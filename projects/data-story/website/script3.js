@@ -1,18 +1,5 @@
   console.log(localStorage.getItem("countryInput"));
 
-  // Wrap every letter in a span
-  var textWrapper = document.querySelector('.intro-4');
-  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-  anime.timeline({loop: false})
-    .add({
-      targets: '.intro-4 .letter',
-      opacity: [0,1],
-      easing: "easeInOutQuad",
-      duration: 500,
-      delay: (el, i) => 10 * (i+1)
-    });
-
   //create option
   let form = document.getElementById('myForm');
   let options = [
