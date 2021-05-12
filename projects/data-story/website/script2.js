@@ -35,7 +35,7 @@ d3.csv('edits.csv').then(function(incomingData){
     let w = 1700;
     let h = 750;
     let padding = 100;
-    let inputNumber = localStorage.getItem("editInput");
+    let inputNumber;
     let countryInUse = [];
     let countryCodes = [];
     let countryNames = [];
@@ -107,6 +107,12 @@ d3.csv('edits.csv').then(function(incomingData){
     yDomain = [0, yMax];
     let yScale = d3.scaleLinear().domain(yDomain).range([0, h-padding*2]);
     let graphGroup = viz2.append("g").classed("graphGroup", true);
+
+    if (localStorage.getItem("editInput") <= yMax){
+      inputNumber = localStorage.getItem("editInput");
+    } else {
+      inputNumber = yMax;
+    }
 
     // let colorScale = d3.scaleLinear().domain(yDomain).range([0,255]);
 
@@ -186,7 +192,7 @@ d3.csv('edits.csv').then(function(incomingData){
       .text("your guess is here:")
       .style('font-family', 'Noto Serif JP, serif, bold')
       .style('font-size', '20px')
-      .attr('x', 150)
+      .attr('x', w-padding*2)
       .attr('y', h-yScale(inputNumber)-padding-10)
       .style('top', h-yScale(inputNumber)-padding-10 + "px")
       .style('left', "30px")
